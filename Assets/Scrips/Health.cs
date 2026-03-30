@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
             Debug.Log("MORISTE");
         }
 
-        Debug.Log("Vida restante" + currentHealth);
+        Debug.Log("Salud restante" + currentHealth);
 
 
     }
