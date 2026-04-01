@@ -142,7 +142,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8380402528528578533, guid: 322a5784e234b734bb161aadef54ff04, type: 3}
   m_PrefabInstance: {fileID: 6731739594519133450}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &786420588
+--- !u!114 &786420589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786420587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a2c25d944b41b4f8bf3e45854a19f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  currentHealth: 100
+--- !u!114 &786420593
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,19 +170,6 @@ MonoBehaviour:
   targetHeath: {fileID: 402419548}
   damageValue: 10
   healValue: 15
---- !u!114 &786420589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786420587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45a2c25d944b41b4f8bf3e45854a19f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Health
-  currentHealth: 100
 --- !u!1 &921396832
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,7 +436,7 @@ PrefabInstance:
       addedObject: {fileID: 786420589}
     - targetCorrespondingSourceObject: {fileID: 8380402528528578533, guid: 322a5784e234b734bb161aadef54ff04, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 786420588}
+      addedObject: {fileID: 786420593}
   m_SourcePrefab: {fileID: 100100000, guid: 322a5784e234b734bb161aadef54ff04, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
