@@ -24,7 +24,7 @@ public class Damage : MonoBehaviour
 
             else
             {
-                Debug.LogWarning("¡Cuidado! No asignaste el objetivo de salud");
+                Debug.LogWarning("¡Cuidado! No asignaste el objetivo de daño");
             }
         }
 
